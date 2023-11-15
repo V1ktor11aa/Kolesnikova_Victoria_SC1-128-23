@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="my_form" name="user_data" method="post|get" action="form.html">
+    <h1>Форма заявки на работу в зоопарка</h1>
+    <p><em>Пожалуйста, заполните форму. Обязательные поля помечены*</em></p>
+    <fieldset>
+        <legend><strong>Контактная информация</strong></legend>
+   <label for="login">Имя*: </label><input type="text" name="login" size="25">
+   <br><br>
+   <label  for="phone">Телефон: </label><input type="phone" name="phone" size="25">
+   <br><br>
+   <label  for="Email">Email*: </label></label><input type="text" name="Email" size="25">
+   
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><strong>Персональная информация</strong></legend>
+   <label for="age">Возраст*: </label><input type="number" name="age" size="25">
+   <br><br>
+   <label>Пол: </label><select name="list">
+    <option value="1">Женщина</option>
+    <option value="2">Мужчина</option></select>
+   <br>
+   <label>Перечислите личные качества: </label>
+    <textarea name="text_area" lang="ru" ></textarea>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><strong>Выберите ваших любимых животных</strong></legend>
+        <table>
+            <tr>
+                <td> <input type="checkbox" name="animals[]">Зебра <br> </td>
+                <td><input type="checkbox" name="animals[]">Слон <br></td>
+                <td><input type="checkbox" name="animals[]">Лев <br></td>
+                <td> <input type="checkbox" name="animals[]">Антилопа <br></td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="animals[]">Змея <br> </td>
+                <td><input type="checkbox" name="animals[]">Собака <br></td>
+                <td><input type="checkbox" name="animals[]">Конь <br></td>
+                <td>  <input type="checkbox" name="animals[]">Лягушка <br></td>
+            </tr>
+        </table>
+</fieldset>
+<br>
+<input type="submit" value="Отправить нформацию">
+</form>
+</body>
+</html>
