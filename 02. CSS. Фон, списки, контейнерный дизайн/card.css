@@ -1,0 +1,26 @@
+.cards { 
+    height: 190px; 
+    width: 140px; 
+    float: left; 
+    background-image: url(https://stigmat19.github.io/scsite/static/media/cards.7e0a18f0.png)} 
+    .cards1 { 
+    height: 190px; 
+    width: 140px; 
+    display: inline-block; 
+    margin-left: -20px; 
+    } 
+    #card1 { 
+    background-position-x: 142px; background-position-y: 0px; 
+    } 
+    #card2 { 
+    background-position-x: 3px; background-position-y: 785px; 
+    } 
+    #card3 { 
+    background-position-x: 281px; background-position-y: 1185px; 
+    }     
+    #card4 { 
+        background-position-x: -148px; background-position-y: 388px; 
+        } 
+ #card5 { 
+        background-position-x: -1px; background-position-y: -2385px; 
+ }
