@@ -1,0 +1,77 @@
+
+ 
+.MenuLevel1 { 
+    width: 100px;  
+    display: flex;
+} 
+
+.MenuLevel1>div { 
+    background-color: rgb(134, 134, 134); 
+    border: solid rgb(109, 109, 109) 1px; 
+    cursor: pointer; 
+    margin: .1em; 
+    position: relative; 
+
+} 
+
+.MenuLevel2 { 
+    width: 100px; 
+    display: none 
+    
+} 
+
+.MenuLevel2>div { 
+    background-color: rgb(207, 207, 207); 
+    border: solid rgb(90, 88, 88) 1px; 
+    cursor: pointer; 
+
+} 
+
+.MenuLevel1>div:hover div.MenuLevel2 { 
+    display: block; 
+    position: absolute; 
+    left: 80%; 
+    top: 90%; 
+    z-index: 1; 
+
+
+} 
+
+@media all and (max-width:396px) { 
+    .MenuLevel1 { 
+        width: 100px; 
+        float: left;
+        display: inline;
+    } 
+
+    .MenuLevel1>div { 
+        background-color: rgb(134, 134, 134); 
+        border: solid rgb(109, 109, 109) 1px; 
+        cursor: pointer; 
+        margin: .1em; 
+        position: relative; 
+
+    } 
+
+    .MenuLevel2 { 
+        width: 100px; 
+        display: none 
+    } 
+
+    .MenuLevel2>div { 
+        background-color: rgb(207, 207, 207); 
+        border: solid rgb(90, 88, 88) 1px; 
+        cursor: pointer; 
+
+    } 
+
+    .MenuLevel1>div:hover div.MenuLevel2 { 
+        display: block; 
+        position: absolute; 
+        left: 80%; 
+        top: 90%; 
+        z-index: 1; 
+
+
+    } 
+} 
